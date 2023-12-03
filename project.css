@@ -1,0 +1,233 @@
+*{padding: 0px; margin: 0px;
+    font-family: Arial }
+.logo{width: 250px; 
+    position: absolute; left:  20px;    
+    padding-top: 10px;
+}
+
+nav{background-color: rgb(3, 191, 239);
+    height: 90px;
+    display: flex;
+    justify-content: space-around
+}
+.menus-container{list-style: none; color: white;
+position: absolute;
+    font-weight: bold;
+display: flex;
+gap: 20px;
+padding-top: 36px;
+padding-left: 700px;
+}
+li:hover{color: rgb(230,138,46);
+    cursor: pointer
+
+}
+.search{width: 15px;
+position: absolute; right: 42px; top: 38px}
+.box{height: 15px; width: 100px;
+    font-family: Arial}
+    .hamburger{position: absolute;top: 32px;
+        right: 0px;
+        width: 25px}
+.banner{display: flex;
+justify-content: center;
+align-items: center}
+.hero{width: 420px; position: absolute; right: 100px; top: 113px}
+.left{position: absolute; left: 200px;
+padding-right: 750px; top: 100px}
+.title{color: rgb(217, 125, 34);
+    text-shadow: 5px;
+    font-family: Arial;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; 
+    letter-spacing: 1.2px;}
+    .John{background-color: white; color: blue;
+    position: absolute;right: 250px}
+    .intro{color:white;
+
+        font-family: Arial;
+        font-size: 14px;
+         padding-top: 8px;
+         padding-bottom: 12px;
+        font-weight: 550;
+        
+        }
+        .trusted{padding-top: 15px;
+            color:white;
+
+            font-family: Arial;
+            font-size: 15px;
+            
+            font-weight: 510;}
+.mid{background-color: rgb(2, 82, 220); height: 600px}
+
+button{padding: 15px 30px;
+    color: white;
+    font-size: 15px;
+    font-family: Arial;
+    font-weight: bold;
+
+border: none;
+background-color:rgb(184, 102, 20)}
+main{background-color: rgb(3, 191, 239);
+height: 700px}
+.lefttitle{color: blue;
+font-weight: bold;
+font-size:50px;
+padding-top: 700px}
+.leftinfo{color: white;
+font-weight: bold;
+padding-top: 20px}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.testimonials__container{
+    background-color: var(--color-creamy-white-bg);
+    display: grid;
+    gap: 2rem;
+    grid-template-rows: 1fr 1fr;
+    position: relative;
+    
+}
+
+.reviews{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.testimonial{
+    font-family: Arial;
+    margin: 0 1rem;
+    background-color: rgb(211, 238, 249);
+    text-align: center;
+    border: 1px solid transparent;
+    transition: var(--transition);
+    border-radius: 10px;
+    box-shadow: 0 3rem 3rem rgba(2,82,220,0.3);
+
+}
+
+.avatar{
+    width: 5rem;
+    height: 6rem;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: .1rem solid var(--color-black);
+}   
+
+.testimonial:hover{
+    background-color: transparent;
+    border-color: var(--color-primary);
+    transition: var(--transition);
+}
+
+.testimonial__info{
+    padding: 1rem;
+}
+
+.testimonial__info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+.testimonial__heading{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+.btn_reviews{
+    background-color: var(--color-btn2-color);
+    position: relative;
+    margin: 0 auto;
+    height: 4rem;
+    width: 10rem;
+}
+
+.call_us{
+    background-color: var(--color-white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.call_us h4 {
+    margin: 0 2rem;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn_call{
+    margin-top: 2rem; background-color: rgb(2, 82, 220);
+padding-bottom: 5px
+}
+
+footer{padding-left: 50px;
+    background-color: rgb(184, 102, 20);
+    padding-top: 5rem;
+    font-size: 0.9rem;  
+    color:  white;
+font-weight: bold;
+}
+
+.footer__logo{
+    margin-left: -2rem;
+}
+
+.footer__container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5rem;
+}
+
+.footer__container > div h4{  
+    margin-bottom: 1.2rem;
+}
+
+.footer__1 p{
+    margin: 0 0 2rem;
+}
+
+.footer__1 h3{
+    font-size: smaller;
+}
+
+footer ul li{
+    margin-bottom: 0.7rem;
+}
+
+footer ul li:hover{
+    text-decoration: underline;
+}
+
+.footer__socials{
+    display: flex;
+    gap: 1rem;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    list-style:none
+}
+
+.footer__copyright{
+    text-align: center;
+    margin-top: 4rem;
+    padding: 1.2rem 0;
+    border-top: 1px solid var(--color-bg2);
+}
